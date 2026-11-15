@@ -4,7 +4,7 @@ from langgraph.graph import StateGraph,START,END
 from app.aws import embed,answer
 from app.vector import search
 from app.config import settings
-from guardrails import check_input,check_output
+from app.guardrails import check_input,check_output
 
 
 class State(TypedDict,total=False):
